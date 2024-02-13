@@ -10,19 +10,19 @@ int y = -2;
 
 if(x > 0 && y > 0)
 {
-    System.Console.WriteLine("точка находится в первой четверти");
+    Console.WriteLine("точка находится в первой четверти");
 }
 else if(x < 0 && y > 0)
 {
-    System.Console.WriteLine("точка находится во второй четверти");
+    Console.WriteLine("точка находится во второй четверти");
 }
 else if(x < 0 && y < 0)
 {
-    System.Console.WriteLine("точка находится в третьей четверти");
+    Console.WriteLine("точка находится в третьей четверти");
 }
 else if(x > 0 && y < 0)
 {
-    System.Console.WriteLine("точка находится в четвертой четверти");
+    Console.WriteLine("точка находится в четвертой четверти");
 }
 else 
 {
