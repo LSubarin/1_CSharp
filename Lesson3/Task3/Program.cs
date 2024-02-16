@@ -13,7 +13,7 @@ void PrintArray(int[] arr) // Создаем функцию вывода мас�
 {
     foreach (int e in arr) 
     {
-        Console.Write($"{e} ");
+        Console.WriteLine($"{e} ");
     }
 }
 
