@@ -22,15 +22,16 @@ int[] CreateArray(int size)
     }
     return array;
 }
-
+// Создаем метод, конвертирующий массив чисел в одно число
 int ConvertArrayToInteger(int[] array)
 {
-    int result = 0;
-    for (int i = 0, j = array.Length - 1; i < array.Length; i++, j--)
+    int result = 0; // Создаем переменную в которую будем сохранять число
+    for (int i = 0, j = array.Length - 1; i < array.Length; i++, j--) // цикл проходит по элементам массива начиная с 0 индекса (i = 0), j = колличество эл-в массива минус 1 
+                                                                      // j - степень 10-ки, для получения разряда цифры (тысяч, сотни, десятки единицы) 
     {
-        result = result + array[i] * (int)Math.Pow(10, j);
+        result = result + array[i] * (int)Math.Pow(10, j); // Результат равен сумме предидущего значения умноженного на приведенную к целому числу (int) 10 ^ j 
     }
-    return result;
+    return result; // Возвращаем result
 }
 
 Console.Write("Введите количество элементов массива: ");

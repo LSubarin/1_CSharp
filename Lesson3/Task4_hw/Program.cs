@@ -28,9 +28,8 @@ Console.WriteLine(sum);
 Console.WriteLine(product);
 */
 
-//int[] arr = new int[n];
-
 // Создаем функцию заполнения массива
+
 int[] FillArray(int size)
 {
     int[] arr = new int[size];
@@ -40,9 +39,9 @@ int[] FillArray(int size)
     }
     return arr;
 }
-//Console.WriteLine($"Массив: [ {string.Join("; ", res)} ]");
 
 // Создаем функцию вывода массива
+
 void PrintArray(int[] arr)
 {
     foreach (int e in arr)
@@ -52,6 +51,7 @@ void PrintArray(int[] arr)
 }
 
 // Создаем метод вычисления суммы элементов массива
+
 int GetSumOfElements(int[] arr)
 {
     int sumOf = 0;
@@ -63,6 +63,7 @@ int GetSumOfElements(int[] arr)
 }
 
 // Создаем метод вычисления произведения всех элементов массива
+
 int GetProductOfElements(int[] arr)
 {
     int productOf = 1;
@@ -102,10 +103,8 @@ Console.WriteLine($"Произведение элементов массива �
 //     i = i + 1;
 // }
 
-/*
-Заполнение массива с клавиатуры
-*/
-//Console.WriteLine();
+
+
 
 
 /* заполняем массив с клавиатуры
